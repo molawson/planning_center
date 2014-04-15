@@ -28,6 +28,7 @@ VCR.configure do |c|
   c.filter_sensitive_data('<PCO_ACCESS_TOKEN_SECRET>') do
     test_access_token_secret
   end
+  c.ignore_hosts 'codeclimate.com'
 end
 
 RSpec.configure do |c|
