@@ -1,12 +1,15 @@
 # encoding: utf-8
 
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
+
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'planning_center'
 
 require './spec/support/env'
 
 require 'webmock/rspec'
-WebMock.disable_net_connect!
+WebMock.disable_net_connect!(allow: 'codeclimate.com')
 
 require 'vcr'
 VCR.configure do |c|
