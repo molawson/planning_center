@@ -9,4 +9,5 @@ module PlanningCenter
 
   require 'planning_center/base'
   require 'planning_center/organization'
+  require 'planning_center/service_type'
 end

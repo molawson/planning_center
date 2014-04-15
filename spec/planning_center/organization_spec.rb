@@ -10,4 +10,13 @@ describe PlanningCenter::Organization do
       ).to eq('The Bridgeway Church')
     end
   end
+
+  describe '#service_types' do
+    it 'returns an array of service types', :vcr do
+      organization = PlanningCenter::Organization.find(client)
+      expect(
+        organization.service_types.first
+      ).to be_a(PlanningCenter::ServiceType)
+    end
+  end
 end

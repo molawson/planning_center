@@ -6,5 +6,11 @@ module PlanningCenter
       attrs = client.get('/organization.json')
       new(attrs, client)
     end
+
+    def service_types
+      attrs['service_types'].map do |service_type_attrs|
+        ServiceType.new(service_type_attrs, client)
+      end
+    end
   end
 end
