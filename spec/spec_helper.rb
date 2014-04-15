@@ -38,3 +38,9 @@ end
 def pco_url(path)
   [PlanningCenter::Client::SITE, path].join
 end
+
+def organization
+  VCR.use_cassette('PlanningCenter::Organization/organization') do
+    PlanningCenter::Organization.find(client)
+  end
+end
