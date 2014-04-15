@@ -3,8 +3,8 @@ require 'planning_center'
 
 require 'dotenv'
 Dotenv.load(
-  File.expand_path("../../.local.env", __FILE__),
-  File.expand_path("../../.env",  __FILE__)
+  File.expand_path('../../.local.env', __FILE__),
+  File.expand_path('../../.env',  __FILE__)
 )
 
 require 'webmock/rspec'
@@ -15,16 +15,16 @@ VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
   c.hook_into :webmock
   c.configure_rspec_metadata!
-  c.filter_sensitive_data("<PCO_CONSUMER_KEY>") do
+  c.filter_sensitive_data('<PCO_CONSUMER_KEY>') do
     test_consumer_key
   end
-  c.filter_sensitive_data("<PCO_CONSUMER_SECRET>") do
+  c.filter_sensitive_data('<PCO_CONSUMER_SECRET>') do
     test_consumer_secret
   end
-  c.filter_sensitive_data("<PCO_ACCESS_TOKEN>") do
+  c.filter_sensitive_data('<PCO_ACCESS_TOKEN>') do
     test_access_token
   end
-  c.filter_sensitive_data("<PCO_ACCESS_TOKEN_SECRET>") do
+  c.filter_sensitive_data('<PCO_ACCESS_TOKEN_SECRET>') do
     test_access_token_secret
   end
 end
