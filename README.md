@@ -1,5 +1,7 @@
 # PlanningCenter
 
+[![Code Climate](http://img.shields.io/codeclimate/github/molawson/planning_center.svg)](https://codeclimate.com/github/molawson/planning_center)
+
 Ruby wrapper for the Planning Center Online API.
 
 ## Installation
