@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module PlanningCenter
   class Organization < Base
     def self.find(client)

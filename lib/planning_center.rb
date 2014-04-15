@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'planning_center/version'
 
 module PlanningCenter
