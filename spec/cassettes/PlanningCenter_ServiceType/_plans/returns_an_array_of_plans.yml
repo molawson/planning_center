@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://planningcenteronline.com/service_types/230211/plans.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="7kTo9SOyWGyEKYey6nX1V1HvFMyFhoCorpLC2IJsk",
+        oauth_signature="PzuIszrEyjESk1BvNUzRvrtJe%2Fs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397598111", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 15 Apr 2014 21:41:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '445'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Last-Modified:
+      - Tue, 15 Apr 2014 21:41:52 GMT
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - must-revalidate, no-cache, no-store, private, max-age=0, post-check=0, pre-check=0
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Set-Cookie:
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJWYzODNlMDE2YmEzNGNmYWIzNTQ2MGYzNjUyZDhlNjAxBjsAVA%3D%3D--4f7088a15daf9463aed55c641a8ce42a442edc9b;
+        domain=.planningcenteronline.com; path=/; expires=Tue, 29-Apr-2014 21:41:52
+        GMT; HttpOnly
+      X-Request-Id:
+      - 5ea96089244aaddd0034a19ea3ada6db
+      X-Runtime:
+      - '0.059934'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":13526759,"plan_title":"","series_title":"","service_type_id":230211,"service_type_name":"Weekend
+        Service","dates":"20 April 2014","series":null,"public":false,"updated_at":"2014/04/15
+        21:34:24 +0000","created_at":"2014/04/15 21:34:22 +0000","sort_date":"2014/04/20
+        10:30:00 +0000","type":"Plan","updated_by":{"id":2768489,"name":"Mo Lawson"},"created_by":{"id":2768489,"name":"Mo
+        Lawson"},"permissions":"Administrator","scheduled":false}]'
+    http_version: 
+  recorded_at: Tue, 15 Apr 2014 21:41:52 GMT
+recorded_with: VCR 2.9.0
