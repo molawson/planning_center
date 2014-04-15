@@ -2,3 +2,5 @@ Documentation:
   Enabled: false
 DotPosition:
   EnforcedStyle: trailing
+NumericLiterals:
+  Enabled: false
