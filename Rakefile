@@ -6,3 +6,12 @@ RSpec::Core::RakeTask.new(:spec)
 Rubocop::RakeTask.new
 
 task default: [:spec, :rubocop]
+
+task :console do
+  require 'pry'
+  require 'planning_center'
+  require './spec/support/env'
+
+  ARGV.clear
+  Pry.start
+end
