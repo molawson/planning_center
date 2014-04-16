@@ -7,14 +7,16 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - OAuth gem v0.4.7
       Authorization:
-      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="4jj2QcJ42gUgmDZmzZJKpYM354JgetKZ1pwQ7GUmpM",
-        oauth_signature="Ob%2FeMX2T5RogMNCKRypKTDkGp2I%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397598110", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="XCTDkkP3pUhKdUqkZ8cgrLjyxjPVaYTxR6QIH2CEU",
+        oauth_signature="GTcNqc8%2BsakqSJzJfiDe4aDEUL0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397642741", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
   response:
     status:
       code: 200
@@ -23,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 15 Apr 2014 21:41:52 GMT
+      - Wed, 16 Apr 2014 10:05:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -33,7 +35,7 @@ http_interactions:
       Status:
       - 200 OK
       Last-Modified:
-      - Tue, 15 Apr 2014 21:41:52 GMT
+      - Wed, 16 Apr 2014 10:05:41 GMT
       Expires:
       - '0'
       Pragma:
@@ -43,20 +45,23 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Set-Cookie:
-      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJWE0NTQ4ODVlMDBiMzliYzlmZWVhZGM4NjFkZTZmNmM2BjsAVA%3D%3D--8c48b3cc7847c6d1b077e89fae77f46a76c2a2ac;
-        domain=.planningcenteronline.com; path=/; expires=Tue, 29-Apr-2014 21:41:52
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTE5NzBiMjc1NjcyOWM4YzAyYTM4ZDQxYTcwYTQ2NjgwBjsAVA%3D%3D--36e04f1e4b6c74a172817843dec9bf56ef6d2e50;
+        domain=.planningcenteronline.com; path=/; expires=Wed, 30-Apr-2014 10:05:41
         GMT; HttpOnly
       X-Request-Id:
-      - da855852135fc2805640fb3c4bfccbb9
+      - 44a8e86e8f5e312837dd85e4c08ca4a8
       X-Runtime:
-      - '0.077711'
+      - '0.029507'
       X-Rack-Cache:
       - miss
+      X-Cache:
+      - MISS
     body:
-      encoding: US-ASCII
-      string: ! '{"id":58851,"account_center_id":96557,"name":"The Bridgeway Church","owner_name":"Mo
-        Lawson","music_stand_enabled":null,"projector_enabled":null,"ccli_connected":false,"secret":1357536549,"date_format":2,"twenty_four_hour_time":false,"total_songs":49,"total_people":4,"service_types":[{"id":230211,"name":"Weekend
-        Service","parent_id":0,"type":"ServiceType","container":"The Bridgeway Church","container_id":null,"sequence":0,"attachment_types_enabled":false,"permissions":"Administrator"}],"service_type_folders":[]}'
+      encoding: UTF-8
+      string: "{\"id\":58851,\"account_center_id\":96557,\"name\":\"The Bridgeway
+        Church\",\"owner_name\":\"Mo Lawson\",\"music_stand_enabled\":null,\"projector_enabled\":null,\"ccli_connected\":false,\"secret\":1357536549,\"date_format\":2,\"twenty_four_hour_time\":false,\"total_songs\":49,\"total_people\":4,\"service_types\":[{\"id\":230211,\"name\":\"Weekend
+        Service\",\"parent_id\":0,\"type\":\"ServiceType\",\"container\":\"The Bridgeway
+        Church\",\"container_id\":null,\"sequence\":0,\"attachment_types_enabled\":false,\"permissions\":\"Administrator\"}],\"service_type_folders\":[]}"
     http_version: 
-  recorded_at: Tue, 15 Apr 2014 21:41:51 GMT
+  recorded_at: Wed, 16 Apr 2014 10:05:42 GMT
 recorded_with: VCR 2.9.0
