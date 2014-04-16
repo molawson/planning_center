@@ -2,6 +2,8 @@
 
 module PlanningCenter
   class Base
+    attr_accessor :attrs
+
     def initialize(attrs, client)
       @attrs = attrs
       @client = client
@@ -17,6 +19,6 @@ module PlanningCenter
 
     private
 
-    attr_reader :attrs, :client
+    attr_reader :client
   end
 end
