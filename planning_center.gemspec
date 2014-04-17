@@ -18,17 +18,17 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'oauth'
-  spec.add_dependency 'json'
+  spec.add_dependency 'oauth', '~> 0.4'
+  spec.add_dependency 'json', '~> 1.8'
 
   spec.add_development_dependency 'bundler', '~> 1.5'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'vcr'
-  spec.add_development_dependency 'webmock'
-  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'rake', '~> 10.1'
+  spec.add_development_dependency 'rspec', '~> 2.14'
+  spec.add_development_dependency 'vcr', '~> 2.9'
+  spec.add_development_dependency 'webmock', '~> 1.17'
+  spec.add_development_dependency 'rubocop', '~> 0.20'
 
-  spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'dotenv'
-  spec.add_development_dependency 'awesome_print'
+  spec.add_development_dependency 'pry', '~> 0.9'
+  spec.add_development_dependency 'dotenv', '~> 0.10'
+  spec.add_development_dependency 'awesome_print', '~> 1.2'
 end
