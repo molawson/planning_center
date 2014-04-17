@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['mo@molawson.com']
   spec.summary       = %q{Ruby wrapper for the Planning Center Online API.}
   spec.description   = %q{Ruby wrapper for the Planning Center Online API.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/molawson/planning_center'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
