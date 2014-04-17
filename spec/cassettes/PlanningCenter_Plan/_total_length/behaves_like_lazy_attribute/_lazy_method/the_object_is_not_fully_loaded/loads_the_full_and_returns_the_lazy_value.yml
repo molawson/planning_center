@@ -14,9 +14,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.7
       Authorization:
-      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="1lFpXVGtxb2OnC5mQqQPvUHvf6dZCiGBIomqy7yV8",
-        oauth_signature="YRq8glI7mqcDKuCVlf1aAGK%2Blik%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397642744", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="SI0oPRmSechJZYt6drH9WRpt4lrsfhZ9OrzXjbx6KwM",
+        oauth_signature="qKBIf9siFXlRneZa8D%2BmZZW%2F0Us%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397775197", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
   response:
     status:
       code: 200
@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 16 Apr 2014 10:05:48 GMT
+      - Thu, 17 Apr 2014 22:53:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,7 +35,7 @@ http_interactions:
       Status:
       - 200 OK
       Last-Modified:
-      - Wed, 16 Apr 2014 10:05:45 GMT
+      - Thu, 17 Apr 2014 22:53:17 GMT
       Expires:
       - '0'
       Pragma:
@@ -45,13 +45,13 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Set-Cookie:
-      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTJlMzBjMGFkM2JkMjA4ZmRhNGJkY2Y1YjAxZTEwNDQ3BjsAVA%3D%3D--6b72f2473935712c9f5e8eab4d1c490c13b88af4;
-        domain=.planningcenteronline.com; path=/; expires=Wed, 30-Apr-2014 10:05:45
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTk2NjhiODdmMDVmZDFkNjVkM2ZlMzhjM2RiNDlhMzBkBjsAVA%3D%3D--c387bcc1b3a48a4d242f0a715b2ee0cca42caf65;
+        domain=.planningcenteronline.com; path=/; expires=Thu, 01-May-2014 22:53:17
         GMT; HttpOnly
       X-Request-Id:
-      - 5d25b52811c18d58297948320f87b1db
+      - d5ccf0ea24cc02929e0603f0a21c5200
       X-Runtime:
-      - '0.044598'
+      - '0.049082'
       X-Rack-Cache:
       - miss
       X-Cache:
@@ -65,7 +65,7 @@ http_interactions:
         10:30:00 +0000\",\"type\":\"Plan\",\"updated_by\":{\"id\":2768489,\"name\":\"Mo
         Lawson\"},\"created_by\":{\"id\":2768489,\"name\":\"Mo Lawson\"},\"permissions\":\"Administrator\",\"scheduled\":false}]"
     http_version: 
-  recorded_at: Wed, 16 Apr 2014 10:05:45 GMT
+  recorded_at: Thu, 17 Apr 2014 22:53:17 GMT
 - request:
     method: get
     uri: https://planningcenteronline.com/plans/13531990.json
@@ -80,9 +80,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.7
       Authorization:
-      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="oJydbmIGve4YuY40qECNmFNQpqqLUZAeev5jqIXcbs",
-        oauth_signature="Sbt0sUtGeVnKuBMaOufC8yBsdjY%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397642745", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="3pe6xKhR6KiLXikNa6mwfROEaVYAvTO4CLiYz46Q",
+        oauth_signature="RR224uvv9TEWJ7h0Ev9mqNAqNe0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397775197", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
   response:
     status:
       code: 200
@@ -91,7 +91,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 16 Apr 2014 10:05:49 GMT
+      - Thu, 17 Apr 2014 22:53:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -101,7 +101,7 @@ http_interactions:
       Status:
       - 200 OK
       Last-Modified:
-      - Wed, 16 Apr 2014 10:05:45 GMT
+      - Thu, 17 Apr 2014 22:53:17 GMT
       Expires:
       - '0'
       Pragma:
@@ -111,13 +111,13 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Set-Cookie:
-      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTFjYzQ3MTBkOWVhMGNjODc1ZTcxZjIxNmJmNmI1OTViBjsAVA%3D%3D--51097d268d3ea515318f6213188ca43c33ef7035;
-        domain=.planningcenteronline.com; path=/; expires=Wed, 30-Apr-2014 10:05:45
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTA3MThjMzdiNTc0Y2ExMzIxZmYyYzM2NjgyZjYyN2I0BjsAVA%3D%3D--e1e1d60d65205b8d8236838eb8ec4ecc16fe8cc4;
+        domain=.planningcenteronline.com; path=/; expires=Thu, 01-May-2014 22:53:17
         GMT; HttpOnly
       X-Request-Id:
-      - 2464e06a6eabeb952cfb6ec2c5b719ae
+      - 40ffa319cd56bc536f2e376723504bb0
       X-Runtime:
-      - '0.140886'
+      - '0.182484'
       X-Rack-Cache:
       - miss
       X-Cache:
@@ -190,10 +190,10 @@ http_interactions:
         Gathering\",\"time_type\":\"Service\",\"actual_start\":null,\"actual_end\":null,\"excluded_categories\":[],\"category_reminders\":{},\"type_to_s\":\"Service\",\"starts_at_unformatted\":\"2014/04/27
         10:30:00 +0000\",\"ends_at_unformatted\":\"2014/04/27 12:00:00 +0000\",\"starts_at\":\"2014/04/27
         10:30:00 +0100\",\"ends_at\":\"2014/04/27 12:00:00 +0100\",\"check_in_count\":0,\"abbreviated_to_s\":\"Sunday
-        Gathering\"}],\"rehearsal_times\":[],\"other_times\":[],\"multi_day\":false,\"attachments\":[],\"sort_by\":\"2014/04/27
+        Gathering\"}],\"rehearsal_times\":[],\"other_times\":[],\"multi_day\":false,\"sort_by\":\"2014/04/27
         10:30:00 +0000\",\"plan_people\":[],\"prev_plan_id\":13401556,\"plan_contributions\":[{\"id\":9219704,\"plan_base_id\":13531990,\"person\":{\"name\":\"Mo
         Lawson\",\"photo_icon_url\":\"https://avatars.planningcenteronline.com/uploads/person/2904415-1357536550/avatar.1.jpg?g=34x34%23\",\"organization_id\":58851},\"created_at\":\"2014/04/16
-        08:57:38 +0000\",\"updated_at\":\"2014/04/16 09:12:47 +0000\"}]}"
+        08:57:38 +0000\",\"updated_at\":\"2014/04/16 09:12:47 +0000\"}],\"attachments\":[]}"
     http_version: 
-  recorded_at: Wed, 16 Apr 2014 10:05:45 GMT
+  recorded_at: Thu, 17 Apr 2014 22:53:17 GMT
 recorded_with: VCR 2.9.0

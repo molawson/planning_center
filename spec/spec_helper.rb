@@ -7,6 +7,7 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'planning_center'
 
 require './spec/support/env'
+require './spec/support/shared_lazy_attribute_examples'
 
 require 'webmock/rspec'
 WebMock.disable_net_connect!(allow: 'codeclimate.com')

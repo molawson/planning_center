@@ -2,16 +2,7 @@
 
 module PlanningCenter
   class Plan < Base
-    def self.lazy_accessor(*names)
-      names.each do |name|
-        define_method(name) do
-          load_attrs
-          attrs[name.to_s]
-        end
-      end
-    end
-
-    attr_writer :load_state
+    include LazyAttributes
 
     lazy_accessor(
       :service_type,
@@ -44,17 +35,10 @@ module PlanningCenter
       plan
     end
 
-    def load_state
-      @load_state ||= :ghost
-    end
-
     private
 
-    def load_attrs
-      return if load_state == :loaded
-
-      self.attrs = client.get("/plans/#{id}.json")
-      self.load_state = :loaded
+    def complete_attrs
+      @complete_attrs ||= client.get("/plans/#{id}.json")
     end
   end
 end
