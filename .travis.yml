@@ -6,12 +6,6 @@ rvm:
   - 1.9.3
   - 2.0.0
   - 2.1.0
-install: "curl https://raw.github.com/Fingertips/WAD/master/bin/wad | ruby"
-env:
-  global:
-    - S3_BUCKET_NAME=planning-center.wad
-    - S3_REGION=eu-west-1
-    - secure: PfQLsb+SbSzgb80pQ9PuCvmmIbJEhWlamaIzPJreNh/6/joVKiyRwuijI2VwFKqkju0jXDfHuwWaSdIzb9sDjDziLpy3jFuMo62IOlkpHlH2AtfbxfspsNqPIB61W2TD68DKY8OvJ1kFPx+thCH683AeKSR0h2lOsOjlxnZpytM=
 addons:
   code_climate:
     repo_token:
