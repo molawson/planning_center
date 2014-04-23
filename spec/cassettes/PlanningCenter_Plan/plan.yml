@@ -14,9 +14,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.7
       Authorization:
-      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="0Ca6kBaLFlO5OdryKUEs6Oi1rc6Kjfn6fQSkeniywg",
-        oauth_signature="2WwO%2FIY4Mkg2s3ezWM%2BhiHW4GaE%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1398291381", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="sUqAeGoBq9oNTCn7PIhwQJkIo9pwjOcsgmHhUqcl5w4",
+        oauth_signature="Y7iMtjXxbD2yKlyanTJOubomaHo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398292269", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
   response:
     status:
       code: 200
@@ -25,17 +25,17 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 23 Apr 2014 22:16:30 GMT
+      - Wed, 23 Apr 2014 22:31:12 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
+      Content-Length:
+      - '15404'
       Connection:
       - keep-alive
       Status:
       - 200 OK
       Last-Modified:
-      - Wed, 23 Apr 2014 22:16:23 GMT
+      - Wed, 23 Apr 2014 22:31:11 GMT
       Expires:
       - '0'
       Pragma:
@@ -45,17 +45,15 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Set-Cookie:
-      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTg3ZGU3MGViZjExOTAzZGI1Mzg0MWE5M2JiZDk1ZTc4BjsAVA%3D%3D--8956efc27f36c9e9391618fa7016850d20ebd102;
-        domain=.planningcenteronline.com; path=/; expires=Wed, 07-May-2014 22:16:23
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJWU0YzYwNGMzMzZmMjAyMmM5OGZlY2Q4YjRiYmU0Mjc5BjsAVA%3D%3D--c49648768e3ba985feff47667d69cd5f1438b993;
+        domain=.planningcenteronline.com; path=/; expires=Wed, 07-May-2014 22:31:12
         GMT; HttpOnly
       X-Request-Id:
-      - a65a5860aa4c1c4fa71c65a98a63af65
+      - de30c26dcb2a032b52eb8d413d097338
       X-Runtime:
-      - '0.190697'
+      - '0.366218'
       X-Rack-Cache:
       - miss
-      X-Cache:
-      - MISS
     body:
       encoding: UTF-8
       string: "{\"id\":13643464,\"plan_title\":\"Jesus Is a Better Teacher\",\"series_title\":\"Jesus
@@ -129,5 +127,5 @@ http_interactions:
         Lawson\",\"photo_icon_url\":\"https://avatars.planningcenteronline.com/uploads/person/2904415-1357536550/avatar.1.jpg?g=34x34%23\",\"organization_id\":58851},\"created_at\":\"2014/04/23
         22:06:58 +0000\",\"updated_at\":\"2014/04/23 22:16:05 +0000\"}],\"attachments\":[]}"
     http_version: 
-  recorded_at: Wed, 23 Apr 2014 22:16:22 GMT
+  recorded_at: Wed, 23 Apr 2014 22:31:11 GMT
 recorded_with: VCR 2.9.0

@@ -49,3 +49,9 @@ def organization
     PlanningCenter::Organization.find(client)
   end
 end
+
+def plan
+  VCR.use_cassette('PlanningCenter::Plan/plan') do
+    PlanningCenter::Plan.find(13643464, client)
+  end
+end
