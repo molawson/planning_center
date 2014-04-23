@@ -12,9 +12,9 @@ describe PlanningCenter::Plan do
 
   describe '.find', :vcr do
     it 'returns a plan' do
-      plan = PlanningCenter::Plan.find(13531990, client)
+      plan = PlanningCenter::Plan.find(13643464, client)
       expect(plan.plan_title).to eq('Jesus Is a Better Teacher')
-      expect(plan.total_length).to eq(4710)
+      expect(plan.total_length).to eq(4650)
     end
   end
 
@@ -25,9 +25,16 @@ describe PlanningCenter::Plan do
           find_all_for_service_type(230211, client).
           first
       end
-      let(:complete_object) { PlanningCenter::Plan.find(13531990, client) }
+      let(:complete_object) { PlanningCenter::Plan.find(13643464, client) }
       let(:lazy_method) { :total_length }
-      let(:lazy_value) { 4710 }
+      let(:lazy_value) { 4650 }
+    end
+  end
+
+  describe '#items', :vcr do
+    it 'returns an array of items' do
+      plan = PlanningCenter::Plan.find(13643464, client)
+      expect(plan.items.first).to be_a(PlanningCenter::Item)
     end
   end
 end

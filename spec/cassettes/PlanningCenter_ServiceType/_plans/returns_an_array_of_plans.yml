@@ -14,9 +14,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.7
       Authorization:
-      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="gIx65vTSqyXu0bH9JRfvDMDbcANvtlLbpqNaKgcsrw",
-        oauth_signature="mJMj3oeCWXeAcs30aY28obJ%2BdYI%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1397642742", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="1uOydQ2MOgCdXBUi38tkg7nnR0L6knVKvG2BaD8P4Q",
+        oauth_signature="f0QuKv2MCebTSF3kvpWXzWT4htU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398291379", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
   response:
     status:
       code: 200
@@ -25,17 +25,17 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 16 Apr 2014 10:05:46 GMT
+      - Wed, 23 Apr 2014 22:16:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '506'
+      - '485'
       Connection:
       - keep-alive
       Status:
       - 200 OK
       Last-Modified:
-      - Wed, 16 Apr 2014 10:05:42 GMT
+      - Wed, 23 Apr 2014 22:16:20 GMT
       Expires:
       - '0'
       Pragma:
@@ -45,25 +45,25 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Set-Cookie:
-      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTRkOGIxMTFhNjkyNzVhNTM1YjZmZjE3MmJkNjU3NWFhBjsAVA%3D%3D--3eaf6c79473511ada1f6cf5388e8ea412389026b;
-        domain=.planningcenteronline.com; path=/; expires=Wed, 30-Apr-2014 10:05:42
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTA5OWNiN2M1MmIzNTVlY2FjOTQzM2ZmYjFmMWU0MGU0BjsAVA%3D%3D--50a9b5b25149f054f8ee00c17ffda88a39adc84f;
+        domain=.planningcenteronline.com; path=/; expires=Wed, 07-May-2014 22:16:20
         GMT; HttpOnly
       X-Request-Id:
-      - 4964b74aca443a6b3189b3d2fb8b6945
+      - 0875795c25a51e2aa4ac762cede4f960
       X-Runtime:
-      - '0.052574'
+      - '0.052647'
       X-Rack-Cache:
       - miss
       X-Cache:
       - MISS
     body:
       encoding: UTF-8
-      string: "[{\"id\":13531990,\"plan_title\":\"Jesus Is a Better Teacher\",\"series_title\":\"Jesus
-        Is Better - Hymns from Hebrews\",\"service_type_id\":230211,\"service_type_name\":\"Weekend
-        Service\",\"dates\":\"27 April 2014\",\"series\":null,\"public\":false,\"updated_at\":\"2014/04/16
-        09:12:47 +0000\",\"created_at\":\"2014/04/16 08:56:19 +0000\",\"sort_date\":\"2014/04/27
+      string: "[{\"id\":13643464,\"plan_title\":\"Jesus Is a Better Teacher\",\"series_title\":\"Jesus
+        Is Better\",\"service_type_id\":230211,\"service_type_name\":\"Weekend Service\",\"dates\":\"3
+        August 2014\",\"series\":null,\"public\":false,\"updated_at\":\"2014/04/23
+        22:16:05 +0000\",\"created_at\":\"2014/04/23 22:06:01 +0000\",\"sort_date\":\"2014/08/03
         10:30:00 +0000\",\"type\":\"Plan\",\"updated_by\":{\"id\":2768489,\"name\":\"Mo
         Lawson\"},\"created_by\":{\"id\":2768489,\"name\":\"Mo Lawson\"},\"permissions\":\"Administrator\",\"scheduled\":false}]"
     http_version: 
-  recorded_at: Wed, 16 Apr 2014 10:05:42 GMT
+  recorded_at: Wed, 23 Apr 2014 22:16:19 GMT
 recorded_with: VCR 2.9.0
