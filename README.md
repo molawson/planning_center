@@ -2,6 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/molawson/planning_center.svg)](https://travis-ci.org/molawson/planning_center)
 [![Code Climate](https://img.shields.io/codeclimate/github/molawson/planning_center.svg)](https://codeclimate.com/github/molawson/planning_center)
+[![Code Climate Coverage](https://img.shields.io/codeclimate/coverage/github/molawson/planning_center.svg)](https://codeclimate.com/github/molawson/planning_center)
 
 Ruby wrapper for the Planning Center Online API.
 
