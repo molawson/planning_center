@@ -8,7 +8,8 @@ module PlanningCenter
   require 'planning_center/lazy_attributes'
 
   require 'planning_center/base'
+  require 'planning_center/item'
   require 'planning_center/organization'
-  require 'planning_center/service_type'
   require 'planning_center/plan'
+  require 'planning_center/service_type'
 end

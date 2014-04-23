@@ -35,6 +35,10 @@ module PlanningCenter
       plan
     end
 
+    def items
+      attrs['items'].map { |item_attrs| Item.new(item_attrs, client) }
+    end
+
     private
 
     def complete_attrs
