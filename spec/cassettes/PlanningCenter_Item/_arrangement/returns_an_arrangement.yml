@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://planningcenteronline.com/arrangements/8535124.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="<PCO_CONSUMER_KEY>", oauth_nonce="byQEPMb8vSLjPfeQTv6HgvqpWSZjyyQ5y6lxVUnCjQ",
+        oauth_signature="S4oQ7yYQkfaYx3gGrLyQFg%2BE0yc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1398293342", oauth_token="<PCO_ACCESS_TOKEN>", oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 23 Apr 2014 22:49:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Last-Modified:
+      - Wed, 23 Apr 2014 22:49:04 GMT
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - must-revalidate, no-cache, no-store, private, max-age=0, post-check=0, pre-check=0
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Set-Cookie:
+      - _account_center_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJWUyYjM1MjhjNzllZmJiYjNhNGRhODk5OTRkNjY2N2FhBjsAVA%3D%3D--07314c98781bf8023110028c7c48d0c405cd7ff2;
+        domain=.planningcenteronline.com; path=/; expires=Wed, 07-May-2014 22:49:04
+        GMT; HttpOnly
+      X-Request-Id:
+      - 41d60e588cd8639bdcaf4b655ed2998a
+      X-Runtime:
+      - '0.036431'
+      X-Rack-Cache:
+      - miss
+      X-Cache:
+      - MISS
+    body:
+      encoding: UTF-8
+      string: "{\"id\":8535124,\"name\":\"Default Arrangement\",\"bpm\":null,\"has_chords\":false,\"has_chord_chart\":true,\"length\":0,\"sequence_to_s\":\"V1,
+        V2, C, V3, C, B, C\",\"meter\":\"\",\"song_id\":7591606,\"update_by_id\":1,\"created_by_id\":2768489,\"updated_at\":\"2014/04/23
+        22:15:01 +0000\",\"created_at\":\"2014/03/22 15:40:55 +0000\",\"notes\":\"\",\"minutes\":0,\"seconds\":0,\"formatted_length\":\"0:00\",\"custom_zooms\":[],\"chord_chart\":\"Verse
+        1:\\r\\nRock of Ages, cleft for me\\r\\nLet me hide myself in thee\\r\\nLet
+        the water and the blood\\r\\nFrom thy wounded side which flowed\\r\\nBe of
+        sin the double cure\\r\\nSave from wrath and make me pure\\r\\n\\r\\nVerse
+        2:\\r\\nNot the labours of my hands\\r\\nCan fulfill the law\\u2019s commands\\r\\nShould
+        my passion never fade\\r\\nAnd my efforts all be weighed\\r\\nAll for sin
+        could not atone\\r\\nYou must save and you alone\\r\\n\\r\\nChorus: \\r\\nRock
+        of Ages\\r\\nNo one takes your life\\r\\nYet you died that I might live\\r\\nCostly
+        grace you freely give\\r\\nRock of Ages\\r\\nYou have paid the price\\r\\nYou
+        were cleft to cover me\\r\\nLet me hide myself in thee\\r\\n\\r\\nVerse 3:\\r\\nNothing
+        in my hands I bring\\r\\nSimply to the cross I cling\\r\\nNaked come to thee
+        for dress\\r\\nHelpless look to thee for grace\\r\\nWretched to the fount
+        I fly\\r\\nWash me, Saviour, or I die\\r\\n\\r\\nBridge: \\r\\nAnd while I
+        draw my final breath\\r\\nI\\u2019ll rest upon your grace\\r\\nAnd when I
+        close my eyes in death\\r\\nI\\u2019ll wake to see your face\\r\\n\",\"attachments\":[{\"id\":\"lyric_chart-8535124\",\"url\":\"https://services.planningcenteronline.com/arrangements/8535124/lyric_chart?sequence_id=\",\"allow_mp3_download\":false,\"content_type\":\"application/octet-stream\",\"filename\":\"Rock
+        Of Ages - lyrics.pdf\",\"downloadable\":true,\"streamable\":false,\"comma_separated_page_order\":null,\"comma_separated_attachment_type_ids\":\"\",\"linked_object_type\":\"Arrangement\",\"linked_object_id\":8535124,\"offset_x\":null,\"offset_y\":null,\"zoom\":null,\"custom_zooms\":[],\"secure_link\":\"eJwNyNEKgjAUAFCCkL6jD3DL1FSQELIoeuylJ9mud3OlV9tW1D_00XUez3xxXM6-nfeTKxhzaF8G0IVTL4gMaUDyaEfqDWEI48CEtYI0Dv93DE_vWwzdfWf3U6Wr-qoP50gp4JBkyGWaK6GyiPMclVxtIoB2nUuepEksW9Z_rIEGOmH91uHjiQTYmLYMiqC-_ACtazOc53c6670ceb3fcb9615195a163bbf0ffccd14d114\",\"updated_at\":\"2014/04/23
+        22:15:01 +0000\"}],\"chord_chart_key\":\"Ab\",\"chord_chart_font\":\"Courier\",\"chord_chart_columns\":1,\"chord_chart_font_size\":12,\"properties\":[]}"
+    http_version: 
+  recorded_at: Wed, 23 Apr 2014 22:49:03 GMT
+recorded_with: VCR 2.9.0
