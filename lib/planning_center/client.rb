@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'oauth'
+require 'oauth/signature/plaintext'
 require 'json'
 
 module PlanningCenter
@@ -41,7 +42,8 @@ module PlanningCenter
       @consumer ||= OAuth::Consumer.new(
         consumer_key,
         consumer_secret,
-        site: SITE
+        site: SITE,
+        signature_method: 'plaintext'
       )
     end
 
