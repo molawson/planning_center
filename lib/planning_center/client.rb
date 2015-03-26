@@ -31,7 +31,10 @@ module PlanningCenter
     private
 
     def default_headers
-      { 'content-type' => 'application/json' }
+      {
+        'content-type' => 'application/json',
+        'accept' => 'application/json'
+      }
     end
 
     def oauth
