@@ -40,6 +40,14 @@ def stub_get(path)
   stub_request(:get, pco_url(path))
 end
 
+def stub_post(path)
+  stub_request(:post, pco_url(path))
+end
+
+def stub_put(path)
+  stub_request(:put, pco_url(path))
+end
+
 def pco_url(path)
   [PlanningCenter::Client::SITE, path].join
 end

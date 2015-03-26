@@ -24,8 +24,15 @@ module PlanningCenter
     end
 
     def get(path, headers = {})
-      response = request(:get, path, headers)
-      parse_response(response)
+      request(:get, path, headers)
+    end
+
+    def post(path, body, headers = {})
+      request_with_body(:post, path, body, headers)
+    end
+
+    def put(path, body, headers = {})
+      request_with_body(:put, path, body, headers)
     end
 
     private
@@ -54,12 +61,14 @@ module PlanningCenter
       )
     end
 
-    def request(type, path, headers)
-      oauth.send(
-        type.to_sym,
-        path,
-        default_headers.merge(headers)
-      )
+    def request(type, path, headers = {})
+      response = oauth.request(type, path, default_headers.merge(headers))
+      parse_response(response)
+    end
+
+    def request_with_body(type, path, body, headers = {})
+      response = oauth.request(type, path, body, default_headers.merge(headers))
+      parse_response(response)
     end
 
     def parse_response(response)
