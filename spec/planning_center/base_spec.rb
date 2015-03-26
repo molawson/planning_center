@@ -26,20 +26,20 @@ describe PlanningCenter::Base do
       attrs = { 'id' => 123 }
       expect(
         PlanningCenter::Base.new(attrs, client).respond_to?(:id)
-      ).to be_true
+      ).to be true
     end
 
     it 'responds to methods with nil values' do
       attrs = { 'name' => nil }
       expect(
         PlanningCenter::Base.new(attrs, client).respond_to?(:name)
-      ).to be_true
+      ).to be true
     end
 
     it 'does not respond to methods not matching hash keys' do
       expect(
         PlanningCenter::Base.new({}, client).respond_to?(:giraffe)
-      ).to be_false
+      ).to be false
     end
   end
 end
