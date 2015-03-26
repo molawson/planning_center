@@ -14,7 +14,7 @@ module PlanningCenter
     end
 
     def respond_to_missing?(method_name, _include_private = false)
-      attrs.key? method_name.to_s
+      attrs.key?(method_name.to_s) || super
     end
 
     private
