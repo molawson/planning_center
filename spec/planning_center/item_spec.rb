@@ -3,7 +3,6 @@
 require 'spec_helper'
 
 describe PlanningCenter::Item do
-
   describe '#arrangement', :vcr do
     it 'returns an arrangement' do
       item = plan.items.first
