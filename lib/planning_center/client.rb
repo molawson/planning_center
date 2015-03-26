@@ -30,6 +30,10 @@ module PlanningCenter
 
     private
 
+    def default_headers
+      { 'content-type' => 'application/json' }
+    end
+
     def oauth
       @oauth ||= OAuth::AccessToken.new(
         consumer,
@@ -48,7 +52,11 @@ module PlanningCenter
     end
 
     def request(type, path, headers)
-      oauth.send(type.to_sym, path, headers)
+      oauth.send(
+        type.to_sym,
+        path,
+        default_headers.merge(headers)
+      )
     end
 
     def parse_response(response)
